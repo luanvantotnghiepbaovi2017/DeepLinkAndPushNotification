@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A70ACAF261F89E664DB6EC /* Pods_DeepLinkAndPushNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87695D9DE327E2C72A33D8 /* Pods_DeepLinkAndPushNotification.framework */; };
 		345BA73720A03931003D4FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA73620A03931003D4FE2 /* AppDelegate.swift */; };
 		345BA73920A03931003D4FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA73820A03931003D4FE2 /* ViewController.swift */; };
 		345BA73C20A03931003D4FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345BA73A20A03931003D4FE2 /* Main.storyboard */; };
 		345BA73E20A03931003D4FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345BA73D20A03931003D4FE2 /* Assets.xcassets */; };
 		345BA74120A03931003D4FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345BA73F20A03931003D4FE2 /* LaunchScreen.storyboard */; };
+		345BA74920A03F6D003D4FE2 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA74820A03F6D003D4FE2 /* DeepLinkManager.swift */; };
+		345BA74E20A04492003D4FE2 /* DeepLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA74D20A04492003D4FE2 /* DeepLinkNavigator.swift */; };
+		345BA75020A04CDF003D4FE2 /* ShortcutParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA74F20A04CDF003D4FE2 /* ShortcutParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		345BA73D20A03931003D4FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345BA74020A03931003D4FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345BA74220A03931003D4FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345BA74820A03F6D003D4FE2 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		345BA74D20A04492003D4FE2 /* DeepLinkNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkNavigator.swift; sourceTree = "<group>"; };
+		345BA74F20A04CDF003D4FE2 /* ShortcutParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutParser.swift; sourceTree = "<group>"; };
+		4BC6CBFB87BCDD26D9F34B08 /* Pods-DeepLinkAndPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkAndPushNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification.release.xcconfig"; sourceTree = "<group>"; };
+		B4FB406FD9FD45F9524536CB /* Pods-DeepLinkAndPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkAndPushNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		DA87695D9DE327E2C72A33D8 /* Pods_DeepLinkAndPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLinkAndPushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A70ACAF261F89E664DB6EC /* Pods_DeepLinkAndPushNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				345BA73520A03931003D4FE2 /* DeepLinkAndPushNotification */,
 				345BA73420A03931003D4FE2 /* Products */,
+				6CDE3B99BEB536BB831BBD70 /* Pods */,
+				545F4CED42D6D0374ED69623 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,58 @@
 		345BA73520A03931003D4FE2 /* DeepLinkAndPushNotification */ = {
 			isa = PBXGroup;
 			children = (
-				345BA73620A03931003D4FE2 /* AppDelegate.swift */,
-				345BA73820A03931003D4FE2 /* ViewController.swift */,
+				345BA74C20A04472003D4FE2 /* Application */,
+				345BA74B20A0446A003D4FE2 /* ViewControllers */,
+				345BA74A20A04459003D4FE2 /* Services */,
 				345BA73A20A03931003D4FE2 /* Main.storyboard */,
 				345BA73D20A03931003D4FE2 /* Assets.xcassets */,
 				345BA73F20A03931003D4FE2 /* LaunchScreen.storyboard */,
 				345BA74220A03931003D4FE2 /* Info.plist */,
 			);
 			path = DeepLinkAndPushNotification;
+			sourceTree = "<group>";
+		};
+		345BA74A20A04459003D4FE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				345BA74820A03F6D003D4FE2 /* DeepLinkManager.swift */,
+				345BA74D20A04492003D4FE2 /* DeepLinkNavigator.swift */,
+				345BA74F20A04CDF003D4FE2 /* ShortcutParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		345BA74B20A0446A003D4FE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				345BA73820A03931003D4FE2 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		345BA74C20A04472003D4FE2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				345BA73620A03931003D4FE2 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		545F4CED42D6D0374ED69623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA87695D9DE327E2C72A33D8 /* Pods_DeepLinkAndPushNotification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CDE3B99BEB536BB831BBD70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB406FD9FD45F9524536CB /* Pods-DeepLinkAndPushNotification.debug.xcconfig */,
+				4BC6CBFB87BCDD26D9F34B08 /* Pods-DeepLinkAndPushNotification.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 345BA74520A03931003D4FE2 /* Build configuration list for PBXNativeTarget "DeepLinkAndPushNotification" */;
 			buildPhases = (
+				F8DC4456E7112A5AF2F468B5 /* [CP] Check Pods Manifest.lock */,
 				345BA72F20A03931003D4FE2 /* Sources */,
 				345BA73020A03931003D4FE2 /* Frameworks */,
 				345BA73120A03931003D4FE2 /* Resources */,
+				91A0D795E8681F5A2B7DC7D5 /* [CP] Embed Pods Frameworks */,
+				64D61345AF004C79C39F3FCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +191,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64D61345AF004C79C39F3FCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A0D795E8681F5A2B7DC7D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DC4456E7112A5AF2F468B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepLinkAndPushNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		345BA72F20A03931003D4FE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				345BA73920A03931003D4FE2 /* ViewController.swift in Sources */,
+				345BA75020A04CDF003D4FE2 /* ShortcutParser.swift in Sources */,
+				345BA74E20A04492003D4FE2 /* DeepLinkNavigator.swift in Sources */,
 				345BA73720A03931003D4FE2 /* AppDelegate.swift in Sources */,
+				345BA74920A03F6D003D4FE2 /* DeepLinkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +389,7 @@
 		};
 		345BA74620A03931003D4FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FB406FD9FD45F9524536CB /* Pods-DeepLinkAndPushNotification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +405,7 @@
 		};
 		345BA74720A03931003D4FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC6CBFB87BCDD26D9F34B08 /* Pods-DeepLinkAndPushNotification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
