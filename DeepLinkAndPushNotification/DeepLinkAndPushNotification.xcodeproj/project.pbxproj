@@ -16,6 +16,7 @@
 		345BA74920A03F6D003D4FE2 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA74820A03F6D003D4FE2 /* DeepLinkManager.swift */; };
 		345BA74E20A04492003D4FE2 /* DeepLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA74D20A04492003D4FE2 /* DeepLinkNavigator.swift */; };
 		345BA75020A04CDF003D4FE2 /* ShortcutParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA74F20A04CDF003D4FE2 /* ShortcutParser.swift */; };
+		345BA75220A0614A003D4FE2 /* DeeplinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA75120A0614A003D4FE2 /* DeeplinkParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		345BA74820A03F6D003D4FE2 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
 		345BA74D20A04492003D4FE2 /* DeepLinkNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkNavigator.swift; sourceTree = "<group>"; };
 		345BA74F20A04CDF003D4FE2 /* ShortcutParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutParser.swift; sourceTree = "<group>"; };
+		345BA75120A0614A003D4FE2 /* DeeplinkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkParser.swift; sourceTree = "<group>"; };
 		4BC6CBFB87BCDD26D9F34B08 /* Pods-DeepLinkAndPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkAndPushNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification.release.xcconfig"; sourceTree = "<group>"; };
 		B4FB406FD9FD45F9524536CB /* Pods-DeepLinkAndPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkAndPushNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLinkAndPushNotification/Pods-DeepLinkAndPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
 		DA87695D9DE327E2C72A33D8 /* Pods_DeepLinkAndPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLinkAndPushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				345BA74820A03F6D003D4FE2 /* DeepLinkManager.swift */,
 				345BA74D20A04492003D4FE2 /* DeepLinkNavigator.swift */,
 				345BA74F20A04CDF003D4FE2 /* ShortcutParser.swift */,
+				345BA75120A0614A003D4FE2 /* DeeplinkParser.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				345BA73920A03931003D4FE2 /* ViewController.swift in Sources */,
 				345BA75020A04CDF003D4FE2 /* ShortcutParser.swift in Sources */,
+				345BA75220A0614A003D4FE2 /* DeeplinkParser.swift in Sources */,
 				345BA74E20A04492003D4FE2 /* DeepLinkNavigator.swift in Sources */,
 				345BA73720A03931003D4FE2 /* AppDelegate.swift in Sources */,
 				345BA74920A03F6D003D4FE2 /* DeepLinkManager.swift in Sources */,

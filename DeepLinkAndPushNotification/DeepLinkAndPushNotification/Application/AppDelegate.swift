@@ -45,4 +45,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
         completionHandler(Deeplinker.handleShortcut(item: shortcutItem))
     }
+    
+    // MARK: Deeplinks
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return Deeplinker.handleDeeplink(url: url)
+    }
+    
+    // MARK: Universal Links
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
+            if let url = userActivity.webpageURL {
+                return Deeplinker.handleDeeplink(url: url)
+            }
+        }
+        return false
+    }
 }

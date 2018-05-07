@@ -45,4 +45,10 @@ class DeepLinkManager {
         deeplinkType = ShortcutParser.shared.handleShortcut(item)
         return deeplinkType != nil
     }
+    
+    @discardableResult
+    func handleDeeplink(url: URL) -> Bool {
+        deeplinkType = DeeplinkParser.shared.parseDeepLink(url)
+        return deeplinkType != nil
+    }
 }
