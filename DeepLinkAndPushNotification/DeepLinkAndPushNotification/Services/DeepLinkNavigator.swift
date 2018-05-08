@@ -25,6 +25,8 @@ class DeepLinkNavigator {
             displayAlert(title: "Messages Root")
         case .messages(.details(id: let id)):
             displayAlert(title: "Messages Details \(id)")
+        case .messages(.deepLink(url: let url)):
+            displayAlert(title: "Deeplink: \(url)")
         case .newListing:
             displayAlert(title: "New Listing")
         case .request(id: let id):

@@ -7,29 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13D20EAB21824D6BC12CB50F15F3B105 /* PusherClientOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F6CB262937762414E83071D86C59F /* PusherClientOptions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3C638F60BC88597AC228BCC85A25F640 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE343599895376277D3F79008263CF30 /* Reachability.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4F091E15DCEBA7CA19986CDFB717FFF9 /* Pods-DeepLinkAndPushNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79EA50AB19902C7BB7A542A8F8FA01CF /* Pods-DeepLinkAndPushNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5184438D1C035E810C28623F160B88DC /* Authorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242294F549D85C34C32ADC39F9E2D56 /* Authorizer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5758BFC7D2DFEFA7BC844FB48C827B92 /* PusherSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5493CA74D4BCDFFEB277D4569AAC /* PusherSwift-dummy.m */; };
-		662946A8290CF9F5AEB30C2F8AEA4E4C /* ObjectiveC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD24FF11FB16DEC0BD555D3A45A2065 /* ObjectiveC.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		69C2BEAC77B14231E1F6293EF76AE260 /* PusherChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8243D48000FD5AB738F028BE4152D /* PusherChannel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6D2BE2478FCE19CEA4C031073476E2FE /* PusherDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F4C4153BB5B56FCDE9379B24B70B1 /* PusherDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6EC66D5F09B13579A83C8CB38F10A0EC /* PusherSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06AD78D33F1B2A34C003EB22531CDE /* PusherSwift.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		728B4F88A09B64933908073F941ED0FE /* PusherPresenceChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF58D2E858BCFD06A9E6ECEDF9F447 /* PusherPresenceChannel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		729BE6D5D685A5187C3573BA9665EDBE /* PusherSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B6DC4C74EDF75C832CD4958DFA669E /* PusherSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C911F8BF712BB578F174B3773E7CE8E /* PusherGlobalChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745616D63CE395908794B2E5891C0AA /* PusherGlobalChannel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8D9D7749F1C6544598ADF8FF22465DB4 /* NativePusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990DEDD82F8CA6E545AD5A064C421BE /* NativePusher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8E6C5ED0F045F2CC075EF0914CBB5586 /* PusherConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CE6375D94D147779B06A1522AF489 /* PusherConnection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9029A9BA40A4F8C9813C6EC96B9EFDE0 /* Pods-DeepLinkAndPushNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726D768B65C43726167986152A4E978A /* Pods-DeepLinkAndPushNotification-dummy.m */; };
+		11D0E9EB60321605DEDF452222D8A0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		13D20EAB21824D6BC12CB50F15F3B105 /* PusherClientOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD420448E28968B8C963BAF6E19ED6BC /* PusherClientOptions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1967D391E61278DEAAFF84CB19249C79 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814145A093F0FBC77A6BA8377D39B1B /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
+		3C638F60BC88597AC228BCC85A25F640 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942275DD070883923FE38F836518A499 /* Reachability.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4F091E15DCEBA7CA19986CDFB717FFF9 /* Pods-DeepLinkAndPushNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A128F0B9CF064225B1FC8B627C575F99 /* Pods-DeepLinkAndPushNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5184438D1C035E810C28623F160B88DC /* Authorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54989E511B72F1F496878B26002EE3CA /* Authorizer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5758BFC7D2DFEFA7BC844FB48C827B92 /* PusherSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01001040D69328F1FD222A47D7A01765 /* PusherSwift-dummy.m */; };
+		662946A8290CF9F5AEB30C2F8AEA4E4C /* ObjectiveC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4887F9AC61A19DE26E2C825A4F054A /* ObjectiveC.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69C2BEAC77B14231E1F6293EF76AE260 /* PusherChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983BE4E5E6CEA892A3692953F2C8872 /* PusherChannel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6D2BE2478FCE19CEA4C031073476E2FE /* PusherDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F0FA2085DAC37E19E19B72C5F4037 /* PusherDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6EC66D5F09B13579A83C8CB38F10A0EC /* PusherSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D65D6204AA406B63F173916B51455 /* PusherSwift.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		728B4F88A09B64933908073F941ED0FE /* PusherPresenceChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5E7CADD9C4E997D615126A54161A0 /* PusherPresenceChannel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		729BE6D5D685A5187C3573BA9665EDBE /* PusherSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C74BD76CFA6573C42BC0523B9F4B786 /* PusherSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C911F8BF712BB578F174B3773E7CE8E /* PusherGlobalChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AFE6B2398D98FB554ECD928442525 /* PusherGlobalChannel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8D9D7749F1C6544598ADF8FF22465DB4 /* NativePusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062CCB8631E9FB54EF0255C941305BD3 /* NativePusher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E6C5ED0F045F2CC075EF0914CBB5586 /* PusherConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB877895043C22E958F64348F3D1997 /* PusherConnection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9029A9BA40A4F8C9813C6EC96B9EFDE0 /* Pods-DeepLinkAndPushNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD480008E6316618686364E8274D077 /* Pods-DeepLinkAndPushNotification-dummy.m */; };
+		B560798328F02B27552DB78FAB29EBE6 /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C549EC0836D6E521D7812D30BB5DCB /* Pods-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6FCBC8E6C6384ADEC4E82080FDE4D0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CC7446781428F8D6ACABC4A77A994359 /* PusherWebsocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981E4C34ECB73FF29B79847A056CC8FF /* PusherWebsocketDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CC7446781428F8D6ACABC4A77A994359 /* PusherWebsocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143020D8330E0E75B37D0DD5B3BE7DD6 /* PusherWebsocketDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D7C7E2B4EE82E862F3D04732A7B11ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D9D4B98217ADD0B3D27E1929ED231D75 /* AuthRequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23BED7F6013213962D319616300C2D /* AuthRequestBuilderProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DDC7EC6DAFAF45D547C5CB555A0776CF /* Starscream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418BE5434E32B7319D191418F31154C /* Starscream.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E7748F021655A24F9C0806F60E0E5D87 /* PusherChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389A9A4DC1ED38E0F5CF7FEDE2FFECF /* PusherChannels.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E96B69D5E25F127C2DEFB00D7B1BDCF9 /* CryptoSwiftMicroModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9205CD7F67DC308A806F91BAD39692E7 /* CryptoSwiftMicroModule.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F44B5B97EE2AD4ED0393001492855284 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A41BB270A92B1BA0009EBD24CA590 /* TaskQueue.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D9D4B98217ADD0B3D27E1929ED231D75 /* AuthRequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C15F8652D4B1B3FAC81DF1A76675B32 /* AuthRequestBuilderProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DDC7EC6DAFAF45D547C5CB555A0776CF /* Starscream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D2AC708A1E801A7935D448C428161 /* Starscream.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7748F021655A24F9C0806F60E0E5D87 /* PusherChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C1E512BCA81FA031A1045A23064FC /* PusherChannels.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E96B69D5E25F127C2DEFB00D7B1BDCF9 /* CryptoSwiftMicroModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEADBC175BEB49087841CDF5865E9C8 /* CryptoSwiftMicroModule.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F44B5B97EE2AD4ED0393001492855284 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F762C1D2D025F8C67703383F3CE9963 /* TaskQueue.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,46 +46,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07E8243D48000FD5AB738F028BE4152D /* PusherChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherChannel.swift; path = Sources/PusherChannel.swift; sourceTree = "<group>"; };
-		0A187DCB83C893C61909C80486BCBD49 /* PusherSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PusherSwift-prefix.pch"; sourceTree = "<group>"; };
-		0EB68103F341EA3B23974F6C30CE4EE8 /* Pods-DeepLinkAndPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepLinkAndPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
-		113E5493CA74D4BCDFFEB277D4569AAC /* PusherSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PusherSwift-dummy.m"; sourceTree = "<group>"; };
-		1739E20EF2E691CC83C0AF00F2554319 /* PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PusherSwift.framework; path = PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CD24FF11FB16DEC0BD555D3A45A2065 /* ObjectiveC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveC.swift; path = Sources/ObjectiveC.swift; sourceTree = "<group>"; };
-		20E4B1972F8A0456E631513A4388B4D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		268C154318EA5191CA4FCB58500CD141 /* Pods_DeepLinkAndPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeepLinkAndPushNotification.framework; path = "Pods-DeepLinkAndPushNotification.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		362A41BB270A92B1BA0009EBD24CA590 /* TaskQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskQueue.swift; path = Sources/TaskQueue.swift; sourceTree = "<group>"; };
-		381F4C4153BB5B56FCDE9379B24B70B1 /* PusherDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherDelegate.swift; path = Sources/PusherDelegate.swift; sourceTree = "<group>"; };
-		385CE6375D94D147779B06A1522AF489 /* PusherConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherConnection.swift; path = Sources/PusherConnection.swift; sourceTree = "<group>"; };
-		3F2F6CB262937762414E83071D86C59F /* PusherClientOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherClientOptions.swift; path = Sources/PusherClientOptions.swift; sourceTree = "<group>"; };
+		01001040D69328F1FD222A47D7A01765 /* PusherSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PusherSwift-dummy.m"; sourceTree = "<group>"; };
+		04799DA1B53EE47E18818B4A42E4F0F6 /* Pods-DeepLinkAndPushNotification-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepLinkAndPushNotification-resources.sh"; sourceTree = "<group>"; };
+		062CCB8631E9FB54EF0255C941305BD3 /* NativePusher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativePusher.swift; path = Sources/NativePusher.swift; sourceTree = "<group>"; };
+		0F1D2AC708A1E801A7935D448C428161 /* Starscream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Starscream.swift; path = Sources/Starscream.swift; sourceTree = "<group>"; };
+		11BB0D2A67A1E6E49C71765488EDC1B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143020D8330E0E75B37D0DD5B3BE7DD6 /* PusherWebsocketDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherWebsocketDelegate.swift; path = Sources/PusherWebsocketDelegate.swift; sourceTree = "<group>"; };
+		15919E2FA591F9D61CAC500691CC79D5 /* PusherSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PusherSwift-prefix.pch"; sourceTree = "<group>"; };
+		1814145A093F0FBC77A6BA8377D39B1B /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		24C549EC0836D6E521D7812D30BB5DCB /* Pods-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		2C74BD76CFA6573C42BC0523B9F4B786 /* PusherSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PusherSwift-umbrella.h"; sourceTree = "<group>"; };
+		35A240DE402231C23B818DD33FE954F9 /* PusherSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PusherSwift.xcconfig; sourceTree = "<group>"; };
+		41AB94900ECFDB2D4388E1FB54C3AAB4 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		469C60F42499F6A6B8760CA794D84C60 /* PusherSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PusherSwift.modulemap; sourceTree = "<group>"; };
+		4B140724671B077FE0B58A1A8686D6FB /* Pods_DeepLinkAndPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeepLinkAndPushNotification.framework; path = "Pods-DeepLinkAndPushNotification.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7C1E512BCA81FA031A1045A23064FC /* PusherChannels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherChannels.swift; path = Sources/PusherChannels.swift; sourceTree = "<group>"; };
+		4FB83742C116C0B4B97AF524C6D4DC48 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		54989E511B72F1F496878B26002EE3CA /* Authorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authorizer.swift; path = Sources/Authorizer.swift; sourceTree = "<group>"; };
+		5BB877895043C22E958F64348F3D1997 /* PusherConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherConnection.swift; path = Sources/PusherConnection.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		726D768B65C43726167986152A4E978A /* Pods-DeepLinkAndPushNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeepLinkAndPushNotification-dummy.m"; sourceTree = "<group>"; };
-		78B6DEAB194189C774F5E3DD574EF11D /* Pods-DeepLinkAndPushNotification-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepLinkAndPushNotification-frameworks.sh"; sourceTree = "<group>"; };
-		79EA50AB19902C7BB7A542A8F8FA01CF /* Pods-DeepLinkAndPushNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeepLinkAndPushNotification-umbrella.h"; sourceTree = "<group>"; };
-		8242294F549D85C34C32ADC39F9E2D56 /* Authorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authorizer.swift; path = Sources/Authorizer.swift; sourceTree = "<group>"; };
-		880E0A258B542D93013783F7414FDA58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90E6FC483B978B48C5FA8392005C4021 /* Pods-DeepLinkAndPushNotification-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepLinkAndPushNotification-resources.sh"; sourceTree = "<group>"; };
-		9205CD7F67DC308A806F91BAD39692E7 /* CryptoSwiftMicroModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMicroModule.swift; path = Sources/CryptoSwiftMicroModule.swift; sourceTree = "<group>"; };
-		9389A9A4DC1ED38E0F5CF7FEDE2FFECF /* PusherChannels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherChannels.swift; path = Sources/PusherChannels.swift; sourceTree = "<group>"; };
+		676053BCCDDB028605729F10BD50FE2D /* Pods-DeepLinkAndPushNotification-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeepLinkAndPushNotification-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C15F8652D4B1B3FAC81DF1A76675B32 /* AuthRequestBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequestBuilderProtocol.swift; path = Sources/AuthRequestBuilderProtocol.swift; sourceTree = "<group>"; };
+		6EB5E7CADD9C4E997D615126A54161A0 /* PusherPresenceChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherPresenceChannel.swift; path = Sources/PusherPresenceChannel.swift; sourceTree = "<group>"; };
+		709B0D5BE6D29425C6FCE54D3C8BA4E1 /* Pods-DeepLinkAndPushNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeepLinkAndPushNotification.modulemap"; sourceTree = "<group>"; };
+		7B4887F9AC61A19DE26E2C825A4F054A /* ObjectiveC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveC.swift; path = Sources/ObjectiveC.swift; sourceTree = "<group>"; };
+		7F762C1D2D025F8C67703383F3CE9963 /* TaskQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskQueue.swift; path = Sources/TaskQueue.swift; sourceTree = "<group>"; };
+		8983BE4E5E6CEA892A3692953F2C8872 /* PusherChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherChannel.swift; path = Sources/PusherChannel.swift; sourceTree = "<group>"; };
+		8BFEDBA4FCF9DB99DE946AF200FCB9E4 /* PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PusherSwift.framework; path = PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEADBC175BEB49087841CDF5865E9C8 /* CryptoSwiftMicroModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMicroModule.swift; path = Sources/CryptoSwiftMicroModule.swift; sourceTree = "<group>"; };
+		8DF56D67223DD4DF260AA9CD33BC04E2 /* Pods-OneSignalNotificationServiceExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSignalNotificationServiceExtension-resources.sh"; sourceTree = "<group>"; };
+		917C1259215DFE7BB34B1D45819DC860 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		981E4C34ECB73FF29B79847A056CC8FF /* PusherWebsocketDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherWebsocketDelegate.swift; path = Sources/PusherWebsocketDelegate.swift; sourceTree = "<group>"; };
-		9990DEDD82F8CA6E545AD5A064C421BE /* NativePusher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativePusher.swift; path = Sources/NativePusher.swift; sourceTree = "<group>"; };
-		9B06AD78D33F1B2A34C003EB22531CDE /* PusherSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherSwift.swift; path = Sources/PusherSwift.swift; sourceTree = "<group>"; };
-		A418BE5434E32B7319D191418F31154C /* Starscream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Starscream.swift; path = Sources/Starscream.swift; sourceTree = "<group>"; };
-		AE343599895376277D3F79008263CF30 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
-		C900B99A6FB76A18992541ACED1A1443 /* Pods-DeepLinkAndPushNotification-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeepLinkAndPushNotification-acknowledgements.plist"; sourceTree = "<group>"; };
-		CAD53D92D5B7376DDA93AE461BE416FF /* Pods-DeepLinkAndPushNotification-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeepLinkAndPushNotification-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB894111BDE8554BBAEDB40F37BC6AC5 /* PusherSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PusherSwift.modulemap; sourceTree = "<group>"; };
-		CD1EF541A28B93B83FCD981BEABB0019 /* Pods-DeepLinkAndPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepLinkAndPushNotification.release.xcconfig"; sourceTree = "<group>"; };
-		D4AF58D2E858BCFD06A9E6ECEDF9F447 /* PusherPresenceChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherPresenceChannel.swift; path = Sources/PusherPresenceChannel.swift; sourceTree = "<group>"; };
-		D4B6DC4C74EDF75C832CD4958DFA669E /* PusherSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PusherSwift-umbrella.h"; sourceTree = "<group>"; };
-		E745616D63CE395908794B2E5891C0AA /* PusherGlobalChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherGlobalChannel.swift; path = Sources/PusherGlobalChannel.swift; sourceTree = "<group>"; };
-		EE5D718D4B0BC9CC0DD83B5F42B3159E /* PusherSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PusherSwift.xcconfig; sourceTree = "<group>"; };
-		FA1CC3B8B01EE9FCAC5F653BF5129DB8 /* Pods-DeepLinkAndPushNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeepLinkAndPushNotification.modulemap"; sourceTree = "<group>"; };
-		FE23BED7F6013213962D319616300C2D /* AuthRequestBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequestBuilderProtocol.swift; path = Sources/AuthRequestBuilderProtocol.swift; sourceTree = "<group>"; };
+		942275DD070883923FE38F836518A499 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		94D042B2669B744ACCE554871FFECE65 /* Pods-DeepLinkAndPushNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepLinkAndPushNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		9765AB5B70B8030C08E3FD4067108A69 /* Pods-DeepLinkAndPushNotification-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeepLinkAndPushNotification-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98D99F4CB9D9C84F1F457DB9C4739969 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		9A4D65D6204AA406B63F173916B51455 /* PusherSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherSwift.swift; path = Sources/PusherSwift.swift; sourceTree = "<group>"; };
+		A128F0B9CF064225B1FC8B627C575F99 /* Pods-DeepLinkAndPushNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeepLinkAndPushNotification-umbrella.h"; sourceTree = "<group>"; };
+		A215DC1B8715652220979AEDEE9B80BC /* Pods-DeepLinkAndPushNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepLinkAndPushNotification.release.xcconfig"; sourceTree = "<group>"; };
+		A66AFE6B2398D98FB554ECD928442525 /* PusherGlobalChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherGlobalChannel.swift; path = Sources/PusherGlobalChannel.swift; sourceTree = "<group>"; };
+		BB7F0FA2085DAC37E19E19B72C5F4037 /* PusherDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherDelegate.swift; path = Sources/PusherDelegate.swift; sourceTree = "<group>"; };
+		BD420448E28968B8C963BAF6E19ED6BC /* PusherClientOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherClientOptions.swift; path = Sources/PusherClientOptions.swift; sourceTree = "<group>"; };
+		C5D6457124C9CE6671962B0CC57D13F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD480008E6316618686364E8274D077 /* Pods-DeepLinkAndPushNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeepLinkAndPushNotification-dummy.m"; sourceTree = "<group>"; };
+		CD991C845073D04C0526D3C51BD0DCFA /* Pods-DeepLinkAndPushNotification-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepLinkAndPushNotification-frameworks.sh"; sourceTree = "<group>"; };
+		CF19E7F44DD0DBA85C065D31E15F5F6C /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneSignalNotificationServiceExtension.framework; path = "Pods-OneSignalNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8972C956DC913B69C153C9E553F4F40 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		F028CA4BDD42827F831A6755B5C6F301 /* Pods-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		F5CB1A8B947112D8E6E6776F1267FD94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		99D3AE535077689CE6A8B455649C15E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0E9EB60321605DEDF452222D8A0BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8A062DFB3428FBA6060BCFDC0AB7361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,30 +124,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29CCE57124E13F042FC6E65EB7D895DF /* Pods-DeepLinkAndPushNotification */ = {
+		08DB7B0BF57616D8D3D324DA7EC5AC00 /* Pods-OneSignalNotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
-				20E4B1972F8A0456E631513A4388B4D8 /* Info.plist */,
-				FA1CC3B8B01EE9FCAC5F653BF5129DB8 /* Pods-DeepLinkAndPushNotification.modulemap */,
-				CAD53D92D5B7376DDA93AE461BE416FF /* Pods-DeepLinkAndPushNotification-acknowledgements.markdown */,
-				C900B99A6FB76A18992541ACED1A1443 /* Pods-DeepLinkAndPushNotification-acknowledgements.plist */,
-				726D768B65C43726167986152A4E978A /* Pods-DeepLinkAndPushNotification-dummy.m */,
-				78B6DEAB194189C774F5E3DD574EF11D /* Pods-DeepLinkAndPushNotification-frameworks.sh */,
-				90E6FC483B978B48C5FA8392005C4021 /* Pods-DeepLinkAndPushNotification-resources.sh */,
-				79EA50AB19902C7BB7A542A8F8FA01CF /* Pods-DeepLinkAndPushNotification-umbrella.h */,
-				0EB68103F341EA3B23974F6C30CE4EE8 /* Pods-DeepLinkAndPushNotification.debug.xcconfig */,
-				CD1EF541A28B93B83FCD981BEABB0019 /* Pods-DeepLinkAndPushNotification.release.xcconfig */,
+				C5D6457124C9CE6671962B0CC57D13F5 /* Info.plist */,
+				F028CA4BDD42827F831A6755B5C6F301 /* Pods-OneSignalNotificationServiceExtension.modulemap */,
+				41AB94900ECFDB2D4388E1FB54C3AAB4 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				4FB83742C116C0B4B97AF524C6D4DC48 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				1814145A093F0FBC77A6BA8377D39B1B /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
+				8DF56D67223DD4DF260AA9CD33BC04E2 /* Pods-OneSignalNotificationServiceExtension-resources.sh */,
+				24C549EC0836D6E521D7812D30BB5DCB /* Pods-OneSignalNotificationServiceExtension-umbrella.h */,
+				E8972C956DC913B69C153C9E553F4F40 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				98D99F4CB9D9C84F1F457DB9C4739969 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		3E7F5578E7742050B3D18A41F2E87E10 /* Pods-DeepLinkAndPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				11BB0D2A67A1E6E49C71765488EDC1B8 /* Info.plist */,
+				709B0D5BE6D29425C6FCE54D3C8BA4E1 /* Pods-DeepLinkAndPushNotification.modulemap */,
+				9765AB5B70B8030C08E3FD4067108A69 /* Pods-DeepLinkAndPushNotification-acknowledgements.markdown */,
+				676053BCCDDB028605729F10BD50FE2D /* Pods-DeepLinkAndPushNotification-acknowledgements.plist */,
+				CAD480008E6316618686364E8274D077 /* Pods-DeepLinkAndPushNotification-dummy.m */,
+				CD991C845073D04C0526D3C51BD0DCFA /* Pods-DeepLinkAndPushNotification-frameworks.sh */,
+				04799DA1B53EE47E18818B4A42E4F0F6 /* Pods-DeepLinkAndPushNotification-resources.sh */,
+				A128F0B9CF064225B1FC8B627C575F99 /* Pods-DeepLinkAndPushNotification-umbrella.h */,
+				94D042B2669B744ACCE554871FFECE65 /* Pods-DeepLinkAndPushNotification.debug.xcconfig */,
+				A215DC1B8715652220979AEDEE9B80BC /* Pods-DeepLinkAndPushNotification.release.xcconfig */,
 			);
 			name = "Pods-DeepLinkAndPushNotification";
 			path = "Target Support Files/Pods-DeepLinkAndPushNotification";
 			sourceTree = "<group>";
 		};
-		5B385EDA3ED3B6619E336068845A799E /* Pods */ = {
+		3E909D81FA2B9A61025D648B040523A2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E0F3AA4E0723C50BA31A9F3E56901CB1 /* PusherSwift */,
+				F5CB1A8B947112D8E6E6776F1267FD94 /* Info.plist */,
+				469C60F42499F6A6B8760CA794D84C60 /* PusherSwift.modulemap */,
+				35A240DE402231C23B818DD33FE954F9 /* PusherSwift.xcconfig */,
+				01001040D69328F1FD222A47D7A01765 /* PusherSwift-dummy.m */,
+				15919E2FA591F9D61CAC500691CC79D5 /* PusherSwift-prefix.pch */,
+				2C74BD76CFA6573C42BC0523B9F4B786 /* PusherSwift-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/PusherSwift";
+			sourceTree = "<group>";
+		};
+		5BA4E8C5AE482C9F5FC0041D34F9C6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B140724671B077FE0B58A1A8686D6FB /* Pods_DeepLinkAndPushNotification.framework */,
+				CF19E7F44DD0DBA85C065D31E15F5F6C /* Pods_OneSignalNotificationServiceExtension.framework */,
+				8BFEDBA4FCF9DB99DE946AF200FCB9E4 /* PusherSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661F4368B06409A195EFBACC2265FD87 /* PusherSwift */ = {
+			isa = PBXGroup;
+			children = (
+				54989E511B72F1F496878B26002EE3CA /* Authorizer.swift */,
+				6C15F8652D4B1B3FAC81DF1A76675B32 /* AuthRequestBuilderProtocol.swift */,
+				8CEADBC175BEB49087841CDF5865E9C8 /* CryptoSwiftMicroModule.swift */,
+				062CCB8631E9FB54EF0255C941305BD3 /* NativePusher.swift */,
+				7B4887F9AC61A19DE26E2C825A4F054A /* ObjectiveC.swift */,
+				8983BE4E5E6CEA892A3692953F2C8872 /* PusherChannel.swift */,
+				4B7C1E512BCA81FA031A1045A23064FC /* PusherChannels.swift */,
+				BD420448E28968B8C963BAF6E19ED6BC /* PusherClientOptions.swift */,
+				5BB877895043C22E958F64348F3D1997 /* PusherConnection.swift */,
+				BB7F0FA2085DAC37E19E19B72C5F4037 /* PusherDelegate.swift */,
+				A66AFE6B2398D98FB554ECD928442525 /* PusherGlobalChannel.swift */,
+				6EB5E7CADD9C4E997D615126A54161A0 /* PusherPresenceChannel.swift */,
+				9A4D65D6204AA406B63F173916B51455 /* PusherSwift.swift */,
+				143020D8330E0E75B37D0DD5B3BE7DD6 /* PusherWebsocketDelegate.swift */,
+				942275DD070883923FE38F836518A499 /* Reachability.swift */,
+				0F1D2AC708A1E801A7935D448C428161 /* Starscream.swift */,
+				7F762C1D2D025F8C67703383F3CE9963 /* TaskQueue.swift */,
+				3E909D81FA2B9A61025D648B040523A2 /* Support Files */,
+			);
+			name = PusherSwift;
+			path = PusherSwift;
+			sourceTree = "<group>";
+		};
+		7CC75C1262B9C6BA4CB9F368B7F35519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917C1259215DFE7BB34B1D45819DC860 /* OneSignal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -133,24 +222,28 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5B385EDA3ED3B6619E336068845A799E /* Pods */,
-				FDE73FF415DDF57658DC005DC4F05FF7 /* Products */,
-				CA77FF8F7798A9A54AE09ECDED201360 /* Targets Support Files */,
+				C9D74F593B55FE1A0E5EA203147A1ACC /* Pods */,
+				5BA4E8C5AE482C9F5FC0041D34F9C6D1 /* Products */,
+				7FBD8160AC5568C26AE56F2F1487845C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E98AEB4A3E4FCC9A57A4495AD389E14 /* Support Files */ = {
+		7FBD8160AC5568C26AE56F2F1487845C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				880E0A258B542D93013783F7414FDA58 /* Info.plist */,
-				CB894111BDE8554BBAEDB40F37BC6AC5 /* PusherSwift.modulemap */,
-				EE5D718D4B0BC9CC0DD83B5F42B3159E /* PusherSwift.xcconfig */,
-				113E5493CA74D4BCDFFEB277D4569AAC /* PusherSwift-dummy.m */,
-				0A187DCB83C893C61909C80486BCBD49 /* PusherSwift-prefix.pch */,
-				D4B6DC4C74EDF75C832CD4958DFA669E /* PusherSwift-umbrella.h */,
+				3E7F5578E7742050B3D18A41F2E87E10 /* Pods-DeepLinkAndPushNotification */,
+				08DB7B0BF57616D8D3D324DA7EC5AC00 /* Pods-OneSignalNotificationServiceExtension */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PusherSwift";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B77A819E8EA1D32DD0A4C7764B319680 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				7CC75C1262B9C6BA4CB9F368B7F35519 /* Frameworks */,
+			);
+			name = OneSignal;
+			path = OneSignal;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -161,12 +254,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA77FF8F7798A9A54AE09ECDED201360 /* Targets Support Files */ = {
+		C9D74F593B55FE1A0E5EA203147A1ACC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29CCE57124E13F042FC6E65EB7D895DF /* Pods-DeepLinkAndPushNotification */,
+				B77A819E8EA1D32DD0A4C7764B319680 /* OneSignal */,
+				661F4368B06409A195EFBACC2265FD87 /* PusherSwift */,
 			);
-			name = "Targets Support Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -177,41 +271,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E0F3AA4E0723C50BA31A9F3E56901CB1 /* PusherSwift */ = {
-			isa = PBXGroup;
-			children = (
-				8242294F549D85C34C32ADC39F9E2D56 /* Authorizer.swift */,
-				FE23BED7F6013213962D319616300C2D /* AuthRequestBuilderProtocol.swift */,
-				9205CD7F67DC308A806F91BAD39692E7 /* CryptoSwiftMicroModule.swift */,
-				9990DEDD82F8CA6E545AD5A064C421BE /* NativePusher.swift */,
-				1CD24FF11FB16DEC0BD555D3A45A2065 /* ObjectiveC.swift */,
-				07E8243D48000FD5AB738F028BE4152D /* PusherChannel.swift */,
-				9389A9A4DC1ED38E0F5CF7FEDE2FFECF /* PusherChannels.swift */,
-				3F2F6CB262937762414E83071D86C59F /* PusherClientOptions.swift */,
-				385CE6375D94D147779B06A1522AF489 /* PusherConnection.swift */,
-				381F4C4153BB5B56FCDE9379B24B70B1 /* PusherDelegate.swift */,
-				E745616D63CE395908794B2E5891C0AA /* PusherGlobalChannel.swift */,
-				D4AF58D2E858BCFD06A9E6ECEDF9F447 /* PusherPresenceChannel.swift */,
-				9B06AD78D33F1B2A34C003EB22531CDE /* PusherSwift.swift */,
-				981E4C34ECB73FF29B79847A056CC8FF /* PusherWebsocketDelegate.swift */,
-				AE343599895376277D3F79008263CF30 /* Reachability.swift */,
-				A418BE5434E32B7319D191418F31154C /* Starscream.swift */,
-				362A41BB270A92B1BA0009EBD24CA590 /* TaskQueue.swift */,
-				7E98AEB4A3E4FCC9A57A4495AD389E14 /* Support Files */,
-			);
-			name = PusherSwift;
-			path = PusherSwift;
-			sourceTree = "<group>";
-		};
-		FDE73FF415DDF57658DC005DC4F05FF7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				268C154318EA5191CA4FCB58500CD141 /* Pods_DeepLinkAndPushNotification.framework */,
-				1739E20EF2E691CC83C0AF00F2554319 /* PusherSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -220,6 +279,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F091E15DCEBA7CA19986CDFB717FFF9 /* Pods-DeepLinkAndPushNotification-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CC3B6C41FB72F15EE0AE1C87D2E83C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B560798328F02B27552DB78FAB29EBE6 /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +315,7 @@
 			);
 			name = PusherSwift;
 			productName = PusherSwift;
-			productReference = 1739E20EF2E691CC83C0AF00F2554319 /* PusherSwift.framework */;
+			productReference = 8BFEDBA4FCF9DB99DE946AF200FCB9E4 /* PusherSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5F885633569DCDE154CD981F369468D4 /* Pods-DeepLinkAndPushNotification */ = {
@@ -266,7 +333,24 @@
 			);
 			name = "Pods-DeepLinkAndPushNotification";
 			productName = "Pods-DeepLinkAndPushNotification";
-			productReference = 268C154318EA5191CA4FCB58500CD141 /* Pods_DeepLinkAndPushNotification.framework */;
+			productReference = 4B140724671B077FE0B58A1A8686D6FB /* Pods_DeepLinkAndPushNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		745A2536ABC9981AD547B885DBBC3C73 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8484BCBB9BF0FF6FC51657FFDF22D3 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				4FFF30A74222236548450440B772FF4C /* Sources */,
+				99D3AE535077689CE6A8B455649C15E3 /* Frameworks */,
+				32CC3B6C41FB72F15EE0AE1C87D2E83C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			productName = "Pods-OneSignalNotificationServiceExtension";
+			productReference = CF19E7F44DD0DBA85C065D31E15F5F6C /* Pods_OneSignalNotificationServiceExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,11 +370,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FDE73FF415DDF57658DC005DC4F05FF7 /* Products */;
+			productRefGroup = 5BA4E8C5AE482C9F5FC0041D34F9C6D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5F885633569DCDE154CD981F369468D4 /* Pods-DeepLinkAndPushNotification */,
+				745A2536ABC9981AD547B885DBBC3C73 /* Pods-OneSignalNotificationServiceExtension */,
 				52516FB87AF01029633CD3B72042F370 /* PusherSwift */,
 			);
 		};
@@ -322,6 +407,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FFF30A74222236548450440B772FF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1967D391E61278DEAAFF84CB19249C79 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64922E61F10392788778CF0F6C5E5EA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,7 +437,7 @@
 /* Begin XCBuildConfiguration section */
 		17F31CE3E5D36E38C7ADC67EF14D4667 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE5D718D4B0BC9CC0DD83B5F42B3159E /* PusherSwift.xcconfig */;
+			baseConfigurationReference = 35A240DE402231C23B818DD33FE954F9 /* PusherSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -376,7 +469,7 @@
 		};
 		2319361082901160DC3EA78E2AB9BD05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EB68103F341EA3B23974F6C30CE4EE8 /* Pods-DeepLinkAndPushNotification.debug.xcconfig */;
+			baseConfigurationReference = 94D042B2669B744ACCE554871FFECE65 /* Pods-DeepLinkAndPushNotification.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -472,9 +565,44 @@
 			};
 			name = Debug;
 		};
+		3A839791CBB18435AD9090552042A9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D99F4CB9D9C84F1F457DB9C4739969 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3F8AA7D417EB164B5628266D200103A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE5D718D4B0BC9CC0DD83B5F42B3159E /* PusherSwift.xcconfig */;
+			baseConfigurationReference = 35A240DE402231C23B818DD33FE954F9 /* PusherSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -505,7 +633,7 @@
 		};
 		4A4C0E7ACA114AEFE250DF9B97BCB2BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD1EF541A28B93B83FCD981BEABB0019 /* Pods-DeepLinkAndPushNotification.release.xcconfig */;
+			baseConfigurationReference = A215DC1B8715652220979AEDEE9B80BC /* Pods-DeepLinkAndPushNotification.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -537,6 +665,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8C7DC2E324BD7F42AFC93EEA5B14EC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8972C956DC913B69C153C9E553F4F40 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA33F186435244FD0FD5B7325332656C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -604,6 +766,15 @@
 			buildConfigurations = (
 				323A24856F1A4871A780301AF5C02A2A /* Debug */,
 				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8484BCBB9BF0FF6FC51657FFDF22D3 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7DC2E324BD7F42AFC93EEA5B14EC73 /* Debug */,
+				3A839791CBB18435AD9090552042A9F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

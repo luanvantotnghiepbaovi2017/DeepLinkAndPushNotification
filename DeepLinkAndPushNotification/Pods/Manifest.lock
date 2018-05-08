@@ -1,12 +1,16 @@
 PODS:
+  - OneSignal (2.8.2)
   - PusherSwift (5.1.1)
 
 DEPENDENCIES:
+  - OneSignal (< 3.0, >= 2.5.2)
+  - OneSignal (< 3.0, >= 2.6.2)
   - PusherSwift
 
 SPEC CHECKSUMS:
+  OneSignal: ab5c509192ca8390bdd3570a6261e6decf4c79c1
   PusherSwift: de9238b6b9faec5275d452e5f43ce9c82b78731e
 
-PODFILE CHECKSUM: 70b8ab424b21a1b9ffbe0bfa293adf34bd626a67
+PODFILE CHECKSUM: 77bb69d333dd69583eb9b0dac09a368e9d35d058
 
 COCOAPODS: 1.4.0

@@ -12,6 +12,7 @@ enum DeepLinkType {
     enum Messages {
         case root
         case details(id: String)
+        case deepLink(url: String)
     }
     
     case messages(Messages)
@@ -50,5 +51,9 @@ class DeepLinkManager {
     func handleDeeplink(url: URL) -> Bool {
         deeplinkType = DeeplinkParser.shared.parseDeepLink(url)
         return deeplinkType != nil
+    }
+    
+    func handleRemoteNotification(_ notification: [AnyHashable: Any]) {
+        deeplinkType = NotificationParser.shared.handleNotification(notification)
     }
 }

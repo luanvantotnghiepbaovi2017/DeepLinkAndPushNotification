@@ -7,14 +7,49 @@
 //
 
 import UIKit
+import PusherSwift
+import UserNotifications
+//import PushNotifications
+import OneSignal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
+    // MARK: Properties
     var window: UIWindow?
+//    let pushNotifications = PushNotifications.shared
+    
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//        self.pushNotifications.start(instanceId: Constant.pusherSecretKey)
+//        self.pushNotifications.registerForRemoteNotifications()
+//        return true
+//    }
+//
+//    // MARK: Notifications
+//    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//        self.pushNotifications.registerDeviceToken(deviceToken) {
+//            try? self.pushNotifications.subscribe(interest: "hello")
+//        }
+//    }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
+        
+        // Replace 'YOUR_APP_ID' with your OneSignal App ID.
+        OneSignal.initWithLaunchOptions(launchOptions,
+                                        appId: Constant.OneSignalKey,
+                                        handleNotificationAction: nil,
+                                        settings: onesignalInitSettings)
+        
+        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
+        
+        // Recommend moving the below line to prompt for push after informing the user about
+        //   how your app will use them.
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+            print("User accepted notifications: \(accepted)")
+        })
+        
         return true
     }
     
@@ -59,5 +94,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
         return false
+    }
+    
+    // MARK: Notifications
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        Deeplinker.handleRemoteNotification(userInfo)
     }
 }
